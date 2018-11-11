@@ -83,9 +83,9 @@ def all_supplies_in_holidays(holiday_hash)
       all_supplies=""
       supplies.each do |supply|
         t_supply = supply.slice(0,1).capitalize + supply.slice(1..-1)
-        counter =0
+        counter = 0
         if counter == 0
-          all_supplies = " " + t_supply
+          all_supplies = all_supplies " " + t_supply
           counter =1;
         else
           all_supplies = all_supplies + ", " + t_supply
