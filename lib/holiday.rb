@@ -79,6 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{t_season}:"
     holidays.each do |holiday,supplies|
       tholiday = holiday.to_s.split.map(&:capitalize).join(' ')
+      tholiday = tholiday.sub!("_"," ")
       t_holiday = tholiday.slice(0,1).capitalize + tholiday.slice(1..-1)
       all_supplies=""
       counter = 0
