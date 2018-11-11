@@ -85,7 +85,7 @@ def all_supplies_in_holidays(holiday_hash)
         t_supply = supply.slice(0,1).capitalize + supply.slice(1..-1)
         all_supplies = all_supplies + t_supply
       end
-      puts "  #{t_holiday}: #{t_supply}"
+      puts "  #{t_holiday}: #{all_supplies}"
     end
   end
 end
