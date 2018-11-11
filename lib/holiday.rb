@@ -78,6 +78,8 @@ def all_supplies_in_holidays(holiday_hash)
     t_season = tseason.slice(0,1).capitalize + tseason.slice(1..-1)
     puts "#{t_season}:"
     holidays.each do |holiday,supplies|
+      puts "#{holiday}: #{supplies}"
+    end
   end
 end
 
