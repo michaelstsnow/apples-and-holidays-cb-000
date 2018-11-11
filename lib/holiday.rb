@@ -80,6 +80,9 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday,supplies|
       tholiday = holiday.to_s
       t_holiday = tholiday.slice(0,1).capitalize + tholiday.slice(1..-1)
+      all_supplies=""
+      supplies.each do |supply|
+      end
       puts "  #{t_holiday}: #{supplies}"
     end
   end
