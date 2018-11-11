@@ -106,7 +106,7 @@ def all_holidays_with_bbq(holiday_hash)
         list_of_holidays << holiday
       else
       end
+    end
   end
-end
 list_of_holidays
 end
