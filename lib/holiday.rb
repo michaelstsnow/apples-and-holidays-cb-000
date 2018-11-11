@@ -88,7 +88,7 @@ def all_supplies_in_holidays(holiday_hash)
           all_supplies = t_supply
           counter = 1
         else
-          all_supplies = all_supplies + ", " + t_supply
+          #all_supplies = all_supplies + ", " + t_supply
         end
       end
       puts "  #{t_holiday}: #{all_supplies}"
