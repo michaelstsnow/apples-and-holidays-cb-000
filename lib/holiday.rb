@@ -82,6 +82,7 @@ def all_supplies_in_holidays(holiday_hash)
       t_holiday = tholiday.slice(0,1).capitalize + tholiday.slice(1..-1)
       all_supplies=""
       supplies.each do |supply|
+        t_supply = supply.slice(0,1).capitalize + supply.slice(1..-1)
         all_supplies = all_supplies + t_supply
       end
       puts "  #{t_holiday}: #{supplies}"
