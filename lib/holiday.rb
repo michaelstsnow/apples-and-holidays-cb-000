@@ -86,7 +86,7 @@ def all_supplies_in_holidays(holiday_hash)
         counter = 0
         if counter == 0
           all_supplies = t_supply
-          counter =1;
+          counter = 1
         else
           all_supplies = all_supplies + ", " + t_supply
         end
