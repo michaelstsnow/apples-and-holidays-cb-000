@@ -74,18 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each do |season,holidays|
-    if season == :Winter
-      puts "Winter:"
-    elsif season == :Spring
-      puts "Spring:"
-    elsif season == :Summer
-      puts "Summer:"
-    else
-      puts "Fall:"
-    end
-    season.each do |holiday,supplies|
-      puts "#{holiday}: #{supplies}"
-    end
+    puts season
   end
 end
 
