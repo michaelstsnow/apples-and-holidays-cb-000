@@ -80,7 +80,8 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday,supplies|
       tholiday = holiday.to_s.split.map(&:capitalize).join(' ')
       tholiday = tholiday.sub!("_"," ")
-      t_holiday = tholiday.slice(0,1).capitalize + tholiday.slice(1..-1)
+      t_holiday = tholiday;
+      #t_holiday = tholiday.slice(0,1).capitalize + tholiday.slice(1..-1)
       all_supplies=""
       counter = 0
       supplies.each do |supply|
